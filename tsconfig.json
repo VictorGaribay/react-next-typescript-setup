@@ -1,5 +1,10 @@
 {
   "compilerOptions": {
+    "baseUrl": ".", 
+      "paths": { 
+        "@helpers/*": ["helpers/*"],
+        "@components/*": ["components/*"],
+      },
     "target": "es6",
     "lib": [
       "dom",

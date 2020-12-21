@@ -3,5 +3,9 @@ module.exports = {
   singleQuote: true,
   arrowParens: 'avoid',
   trailingComma: 'none',
-  endOfLine: 'auto'
+  endOfLine: 'auto',
+  printWidth: 120,
+  proseWrap: 'preserve',
+  useTabs: false,
+  tabWidth: 2
 }
